@@ -1,5 +1,7 @@
 # wtf-with-rise
 
+Pour tester le rendu : <https://mehdi-h.github.io/wtf-with-rise/#/>
+
 ## Dépendances
 
 `$>make dependencies;`
