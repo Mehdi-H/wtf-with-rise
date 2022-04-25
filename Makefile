@@ -19,5 +19,6 @@ dependencies:
 
 .PHONY: slide-exports  ## export des slides
 slide-exports:
-	jupyter nbconvert --to slides README.ipynb --output-dir=exports/
-	echo "🗂 Slides exportées au format HTML dans file://$(PWD)/exports/README.slides.html"
+	jupyter nbconvert --to slides README.ipynb --output index.html
+	mv index.html.slides.html index.html
+	echo "🗂 Slides exportées au format HTML dans file://$(PWD)/index.html"
